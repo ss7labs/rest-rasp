@@ -31,7 +31,7 @@ type Call struct {
 	Numb      string  `json:"numb"`
 	Direction string  `json:"direction"`
 	Duration  int64   `json:"duration" gorm:"type:numeric"`
-	Minutes   int64   `json:"duration" gorm:"type:numeric"`
+	Minutes   int64   `json:"minutes" gorm:"type:numeric"`
 	Cost      float32 `json:"cost" gorm:"type:numeric"`
 	Iskz      bool    `json:"iskz"`
 }
